@@ -1,7 +1,0 @@
-streamlit==1.32.0
-pandas==2.2.1
-numpy==1.26.4
-yfinance==0.2.37
-aiohttp==3.9.3
-pytz==2024.1
-streamlit-authenticator==0.3.1
