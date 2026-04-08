@@ -1,0 +1,4 @@
+{
+  "nse_master_url": "https://nsearchives.nseindia.com/content/equities/EQUITY_L.csv",
+  "bse_master_url": "https://www.bseindia.com/downloads1/List_of_companies.csv"
+}
