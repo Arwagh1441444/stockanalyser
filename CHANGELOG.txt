@@ -1,0 +1,20 @@
+Updated app package for AR Tiger Tech Analysis
+
+Main improvements:
+- Faster app reruns via lazy loading of symbol history and news from SQLite.
+- More reliable HTTP sessions with retry/backoff for NSE/news fetches.
+- Incremental history refresh using cached history to reduce redundant fetch volume.
+- Better history merge logic so partial refresh keeps older history.
+- Stronger buy gating with recommendation confidence, data quality, history depth, and recency checks.
+- Added recommendation_reason, recommendation_confidence, history_days, history_recency_days, technical_regime.
+- Fixed portfolio remove-formatting bug in app.py.
+- Added SQLite helper methods and stronger DB pragmas.
+- Expanded smoke test coverage.
+
+Files to replace in your GitHub repo:
+app.py
+refresh_engine.py
+news_engine.py
+market_db.py
+requirements.txt
+smoke_test.py
